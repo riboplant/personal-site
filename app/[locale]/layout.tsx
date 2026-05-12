@@ -39,7 +39,7 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className={`${geist.className} scroll-smooth`}>
-      <body className="bg-white text-gray-900 antialiased">
+      <body className="bg-[#0a0a0b] text-[#f1f1f1] antialiased">
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>
