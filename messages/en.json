@@ -1,0 +1,140 @@
+{
+  "nav": {
+    "about": "About",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hi, I'm",
+    "name": "Ignacio Maruottolo",
+    "title": "Backend Engineer & CS Student",
+    "subtitle": "I build scalable systems and automation tools that transform how teams operate across Latin America.",
+    "cta_projects": "See my projects",
+    "cta_contact": "Get in touch",
+    "location": "Buenos Aires, Argentina"
+  },
+  "about": {
+    "section_title": "About me",
+    "p1": "I'm a Computer Engineering student at ITBA (4th year) with a self-taught mindset and a deep passion for technology. I specialize in backend development, data engineering, and AI-powered automation.",
+    "p2": "I've led teams as a CTO, contributed to open-source projects like PyTorch, and built production systems that handle real financial flows across Latin America. I love solving hard problems at the intersection of code, data, and business impact.",
+    "p3": "When I'm not coding, I'm tutoring students in Data Structures and Algorithms at ITBA, which keeps me sharp and grounded in fundamentals."
+  },
+  "experience": {
+    "section_title": "Experience",
+    "jobs": [
+      {
+        "company": "Tapi",
+        "role": "Backend Engineer",
+        "period": "2025 – Present",
+        "description": "Building cross-team automation systems that accelerate product development across the entire company. Working heavily with AWS and AI to transform payment infrastructure across Latin America.",
+        "tags": ["AWS", "Python", "AI", "Automation", "Payments"]
+      },
+      {
+        "company": "InvertirOnline.com",
+        "role": "Backend Developer Intern",
+        "period": "2025",
+        "description": "Developed microservices in C# (.NET 6-9) for a major financial platform, optimizing trading processes and market queries. Built secure RESTful APIs, integrated external brokers and payment gateways, and applied TDD with xUnit/NUnit.",
+        "tags": ["C#", ".NET", "SQL Server", "Entity Framework", "TDD"]
+      },
+      {
+        "company": "Turbodato",
+        "role": "CTO",
+        "period": "2024 – 2025",
+        "description": "Led the technical strategy as CTO. Designed and implemented AI algorithms for clients, built scalable systems using both SQL and NoSQL databases, and shipped a fully automated process management system.",
+        "tags": ["Python", "AI", "SQL", "NoSQL", "System Design"]
+      },
+      {
+        "company": "ITBA",
+        "role": "Teaching Assistant – Data Structures & Algorithms",
+        "period": "2024 – Present",
+        "description": "Support students in one of the core CS courses at ITBA. Run practical sessions, review assignments, and provide individual tutoring.",
+        "tags": ["Algorithms", "Data Structures", "Teaching"]
+      },
+      {
+        "company": "Dash Home",
+        "role": "Co-founder",
+        "period": "Feb 2022 – Aug 2022",
+        "description": "Co-founded a startup focused on customized home automation systems. Handled product design, development, and client delivery.",
+        "tags": ["Automation", "IoT", "Entrepreneurship"]
+      }
+    ]
+  },
+  "projects": {
+    "section_title": "Projects",
+    "items": [
+      {
+        "name": "Acrux",
+        "description": "Price tracking system that scrapes products from multiple e-commerce sites and uses AI to match and group them. Delivers a clean pricing matrix for smarter business decisions.",
+        "tags": ["Python", "TypeScript", "AI", "Scraping", "FastAPI"],
+        "github": "https://github.com/riboplant/Acrux-API"
+      },
+      {
+        "name": "MON-E",
+        "description": "Language model that classifies credit card transactions and detects fraud using both classical ML algorithms and deep learning approaches.",
+        "tags": ["Python", "ML", "PyTorch", "Fraud Detection"],
+        "github": "https://github.com/riboplant/MON-E"
+      },
+      {
+        "name": "Star-Core",
+        "description": "AI-powered multi-purpose web scraper built in Python, designed to run with local LLMs (Llama) with easy extensibility to any model, from local to API-based.",
+        "tags": ["Python", "LLM", "Web Scraping", "Llama"],
+        "github": "https://github.com/riboplant/Star-Core"
+      },
+      {
+        "name": "Oktopus",
+        "description": "Academic multi-agent pentesting system. Explores how autonomous agents can collaborate to perform security assessments in controlled environments.",
+        "tags": ["Python", "Multi-agent", "Security", "AI"],
+        "github": "https://github.com/riboplant/Oktopus"
+      },
+      {
+        "name": "MGFF",
+        "description": "Interactive global map of financial flows — imports, exports, remittances, debt, and foreign investment between countries. Built for data visualization and economic research.",
+        "tags": ["Data Visualization", "Finance", "Maps"],
+        "github": "https://github.com/riboplant/MGFF"
+      },
+      {
+        "name": "PyTorch (Open Source)",
+        "description": "Open-source contribution to PyTorch's inductor compiler: added graceful handling of matmul operations in foreach_map, improving robustness of the compilation pipeline.",
+        "tags": ["Python", "PyTorch", "Compilers", "Open Source"],
+        "github": "https://github.com/pytorch/pytorch/pull/179526"
+      }
+    ]
+  },
+  "skills": {
+    "section_title": "Skills",
+    "categories": [
+      {
+        "name": "Languages",
+        "items": ["Python", "TypeScript", "JavaScript", "C#", "C", "Java", "Bash", "Ruby"]
+      },
+      {
+        "name": "Backend & APIs",
+        "items": ["FastAPI", ".NET", "Node.js", "Express.js", "NestJS", "REST", "GraphQL"]
+      },
+      {
+        "name": "Frontend",
+        "items": ["React", "Next.js", "React Native", "Vue.js", "HTML", "CSS"]
+      },
+      {
+        "name": "Cloud & DevOps",
+        "items": ["AWS", "Azure", "Docker", "Linux", "Git", "CI/CD"]
+      },
+      {
+        "name": "Data & AI",
+        "items": ["PyTorch", "scikit-learn", "pandas", "SQL Server", "MySQL", "MongoDB", "N8N"]
+      }
+    ]
+  },
+  "contact": {
+    "section_title": "Get in touch",
+    "subtitle": "I'm currently open to new opportunities. Whether it's a job, a collaboration, or just a chat about tech — feel free to reach out.",
+    "email_label": "Send me an email",
+    "or": "or find me on"
+  },
+  "footer": {
+    "built_with": "Built with Next.js & Tailwind CSS",
+    "rights": "Ignacio Maruottolo"
+  }
+}
